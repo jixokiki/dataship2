@@ -1,0 +1,5 @@
+<!-- res/values/colors.xml -->
+<resources>
+    <color name="blue">#4974ba</color> <!-- Add this line -->
+    <!-- other colors -->
+</resources>

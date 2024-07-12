@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/namaBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Nama Barang :"
+        />
+    <TextView
+        android:id="@+id/textViewNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/namaBarang"
+        android:text="Nama Barang"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/jumlahBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewNama"
+        android:textSize="16sp"
+        android:text="Jumlah Barang :"
+        android:layout_marginTop="20px"
+        />
+    <TextView
+        android:id="@+id/textViewJumlah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Barang"
+        android:textSize="16sp"
+        android:layout_below="@id/jumlahBarang"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/kodeBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_below="@id/textViewJumlah"
+        android:layout_marginTop="20px"
+        android:text="Status Barang :"
+        />
+
+    <TextView
+        android:id="@+id/textViewKode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kode Barang"
+        android:textSize="16sp"
+        android:layout_below="@id/kodeBarang"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/hargaBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_below="@id/textViewKode"
+        android:layout_marginTop="20px"
+        android:text="Harga Barang :"
+        />
+    <TextView
+        android:id="@+id/textViewHarga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga Barang"
+        android:textSize="16sp"
+        android:layout_below="@id/hargaBarang"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/namaSplier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_below="@id/textViewHarga"
+        android:layout_marginTop="20px"
+        android:text="Nama Suplier :"
+        />
+    <TextView
+        android:id="@+id/textViewSuplier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Suplier"
+        android:textSize="16sp"
+        android:layout_below="@id/namaSplier"
+        android:layout_marginTop="8dp" />
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageViewBarang"-->
+    <!--        android:layout_width="100dp"-->
+    <!--        android:layout_height="100dp"-->
+    <!--        android:layout_below="@id/textViewSuplier"-->
+    <!--        android:layout_marginTop="8dp"-->
+    <!--        android:src="@drawable/ic_placeholder"-->
+    <!--        android:scaleType="centerCrop" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/namaSupervisor"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:textSize="16sp"-->
+    <!--        android:layout_below="@id/imageViewBarang"-->
+    <!--        android:layout_marginTop="20px"-->
+    <!--        android:text="Madinah"-->
+    <!--        />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageViewBarang2"-->
+    <!--        android:layout_width="100dp"-->
+    <!--        android:layout_height="100dp"-->
+    <!--        android:layout_toEndOf="@id/imageViewBarang"-->
+    <!--        android:layout_marginStart="8dp"-->
+    <!--        android:layout_below="@id/textViewSuplier"-->
+    <!--        android:layout_marginTop="8dp"-->
+    <!--        android:src="@drawable/ic_placeholder"-->
+    <!--        android:scaleType="centerCrop" />-->
+
+    <TextView
+        android:id="@+id/ukuranBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewSuplier"
+        android:textSize="16sp"
+        android:text="Ukuran Barang :"
+        android:layout_marginTop="20px"
+        />
+    <TextView
+        android:id="@+id/textViewUkuran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Barang"
+        android:textSize="16sp"
+        android:layout_below="@id/ukuranBarang"
+        android:layout_marginTop="8dp" />
+</RelativeLayout>

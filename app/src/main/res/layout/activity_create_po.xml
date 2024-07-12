@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreatePOActivity"
+    android:padding="16dp"
+    android:background="@color/blue"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PURCHASING"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/warehouseText"/>
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@id/warehouseText"
+        android:backgroundTint="@android:color/white"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="-45dp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewPOBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonCreatePO"
+        android:layout_marginBottom="156dp"
+        android:background="#e3e1de"
+        />
+
+    <EditText
+        android:id="@+id/editTextHarga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Harga"
+        android:padding="8dp"
+        android:layout_above="@id/spinnerSupplier"
+        android:layout_marginBottom="8dp"
+        android:background="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/editTextAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alamat"
+        android:padding="8dp"
+        android:layout_above="@id/editTextHarga"
+        android:layout_marginBottom="8dp"
+        android:background="@color/white"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerSupplier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonCreatePO"
+        android:layout_marginBottom="8dp"
+        android:background="@color/white"
+        />
+
+    <Button
+        android:id="@+id/buttonCreatePO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create PO"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#1ea1b0"
+        />
+
+    <Button
+        android:id="@+id/buttonAddSupplier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Supplier"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#1e8bb0"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"/>
+</RelativeLayout>

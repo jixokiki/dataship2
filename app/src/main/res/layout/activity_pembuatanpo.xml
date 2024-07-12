@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PembuatanRO"
+    android:background="@color/blue"
+    >
+
+
+    <!--    <Button-->
+    <!--        android:id="@+id/buttonPembuatanRO"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Pembuatan RO"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginTop="260dp" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/buttonViewBarang"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Hitory RO"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_below="@+id/buttonPembuatanPO"/>-->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PURCHASING"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/warehouseText"/>
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@id/warehouseText"
+        android:backgroundTint="@android:color/white"
+        android:textColor="@android:color/black"/>
+    <Button
+        android:id="@+id/buttonViewDimintaPO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DIMINTA"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:backgroundTint="#4ec3c7"
+        />
+
+    <Button
+        android:id="@+id/buttonCreatePO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create PO"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/buttonViewDimintaPO"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#4da2b3"
+        />
+
+
+
+</RelativeLayout>

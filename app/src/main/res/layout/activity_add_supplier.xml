@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddSupplierActivity"
+    android:padding="16dp"
+    android:background="@color/blue"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PURCHASING"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/warehouseText"/>
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@id/warehouseText"
+        android:backgroundTint="@android:color/white"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/editTextNewSupplier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter new supplier name"
+        android:padding="8dp"
+        android:background="@color/white"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/warehouseText"
+        />
+
+    <Button
+        android:id="@+id/buttonAddSupplier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Supplier"
+        android:layout_below="@id/editTextNewSupplier"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#1ba696"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewSuppliers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/buttonAddSupplier"
+        android:layout_marginTop="26dp"
+        android:backgroundTint="@android:color/white" />
+</RelativeLayout>

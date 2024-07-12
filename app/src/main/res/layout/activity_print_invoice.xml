@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/blue"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PURCHASING"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/warehouseText"/>
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@id/warehouseText"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="-45dp"
+        android:backgroundTint="@android:color/white"
+        android:textColor="@android:color/black"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewPrintInvoice"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="#d7dadb"/>
+
+    <Button
+        android:id="@+id/buttonPrintPDF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cetak PDF"
+        android:backgroundTint="#752d1e"
+        />
+</LinearLayout>

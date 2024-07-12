@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TampilanSupervisor"
+    android:background="@color/blue"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUPERVISOR"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/warehouseText"/>
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@id/warehouseText"
+        android:backgroundTint="@android:color/white"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/buttonPembuatanPO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List PO Belum Disetuji"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:backgroundTint="#0494d1"
+        />
+
+    <Button
+        android:id="@+id/buttonViewBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List Persetujuan PO"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/buttonPembuatanPO"
+        android:backgroundTint="#588ba1"/>
+
+    <!--    <Button-->
+    <!--        android:id="@+id/buttonAcc"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Cetak PDF"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_below="@+id/buttonViewBarang"/>-->
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="agreement_checkbox" type="id" />
+    <item name="preorder_button" type="id" />
+    <item name="item_count_text" type="id" />
+    <item name="item_price_text" type="id" />
+    <item name="spinnerNamaBarang" type="id" />
+    <item name="editTextJumlahBarang" type="id" />
+    <item name="buttonTambahBarang" type="id" />
+    <item name="buttonViewDimintaPO" type="id" />
+    <item name="textViewUkuran" type="id" />
+    <item name="textViewSuplier" type="id" />
+</resources>

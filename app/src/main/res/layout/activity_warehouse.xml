@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WarehouseActivity"
+    android:padding="16dp"
+    android:background="@color/blue"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WAREHOUSE"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/warehouseText"/>
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@id/warehouseText"
+        android:backgroundTint="@android:color/white"
+        android:textColor="@android:color/black"/>
+
+    <Spinner
+        android:id="@+id/spinnerNamaBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="16dp"
+        android:background="@color/white"
+        android:layout_marginTop="70dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerUkuranBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerNamaBarang"
+        android:layout_marginBottom="16dp"
+        android:background="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/editTextJumlahBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jumlah Barang"
+        android:padding="8dp"
+        android:layout_below="@id/spinnerUkuranBarang"
+        android:layout_marginBottom="16dp"
+        android:background="@color/white"
+        />
+
+    <Button
+        android:id="@+id/buttonTambahBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah Barang"
+        android:layout_below="@id/editTextJumlahBarang"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#aad7e6"
+        />
+
+    <Button
+        android:id="@+id/buttonAddNewItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Item"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentLeft="true"
+        android:backgroundTint="#1ba3a6"
+        />
+
+    <Button
+        android:id="@+id/buttonAddNewSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Size"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#1b88a6"
+        />
+</RelativeLayout>

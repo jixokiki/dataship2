@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/viewNamaBarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Barang :"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textViewNamaBarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Barang"
+            />
+
+        <TextView
+            android:id="@+id/viewJumlahBarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewNamaBarang"
+            android:text="Jumlah Barang :"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/textViewJumlahBarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Barang" />
+
+        <TextView
+            android:id="@+id/viewHarga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewJumlahBarang"
+            android:text="Harga :"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/textViewHarga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Harga" />
+
+        <TextView
+            android:id="@+id/viewSupplier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewHarga"
+            android:text="Supplier :"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/textViewSupplier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Supplier" />
+
+        <TextView
+            android:id="@+id/viewQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewSupplier"
+            android:text="Total Pemesanan :"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/textViewQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quantity" />
+
+        <TextView
+            android:id="@+id/viewStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewQuantity"
+            android:text="Status :"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/textViewStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status" />
+
+        <TextView
+            android:id="@+id/textViewTimestamp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Timestamp" />
+    </LinearLayout>
+</LinearLayout>
